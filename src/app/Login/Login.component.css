@@ -1,0 +1,95 @@
+body {
+    font-family: system-ui, -apple-system, Roboto, 'Open Sans', sans-serif;
+    /*color 7  VERDE MANTIS*/
+    background-color: #87CB69;
+    height: 100vh;
+    margin: auto;
+}
+
+.carta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.carta .logo img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.carta .container button:hover {
+    /*color 7  VERDE MANTIS*/
+    background-color: #6B8D5C;
+    transition: 0.5s;
+}
+
+.carta .container button {
+    /*color 7  VERDE MANTIS*/
+    background-color: #87CB69;
+    color: aliceblue;
+}
+
+.container h3 {
+    font-size: large;
+    font-family: system-ui, -apple-system, Roboto, 'Open Sans', sans-serif;
+    text-align: center;
+    /*color 7  VERDE MANTIS*/
+    text-decoration: #6B8D5C;
+}
+
+.container .form-control {
+    outline: 0;
+    border-width: 0 0 3px;
+    /*color 7  VERDE MANTIS*/
+    border-color: #6B8D5C;
+}
+
+#checkbox {
+    /*color 7  VERDE MANTIS*/
+    border-color: #6B8D5C;
+    box-shadow: none;
+}
+
+#checkbox:checked {
+    /*color 7  VERDE MANTIS*/
+    background-color: #87CB69;
+    box-shadow: none;
+}
+
+#rutInput {
+    box-shadow: none;
+}
+
+#passInput {
+    box-shadow: none;
+}
+
+.carta .container {
+    /*color 7  VERDE MANTIS*/
+    color: #6B8D5C;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    background-color: white;
+    background-position: center center;
+    padding: 42px;
+    margin: 40px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 940px) {
+    .carta {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0px;
+    }
+    .campos {
+        margin-top: 10px;
+    }
+}

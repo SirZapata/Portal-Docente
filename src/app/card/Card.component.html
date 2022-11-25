@@ -1,0 +1,11 @@
+<div class="card-deck container">
+	<div class="card-group grupo">
+		<div class="card carta" *ngFor="let curso of cursos; let i = index">
+			<div class="card-header" id="header-1"></div>
+			<div class="card-body">
+				<h5 class="card-title">{{curso.curso}}</h5>
+				<button type="button" class="btn btn-outline-success" id="ingresar" (click)="verCurso()">Ver curso</button>
+			</div>
+		</div>
+	</div>
+</div>
